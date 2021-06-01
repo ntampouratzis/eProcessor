@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/red-sea/COSSIM/hla/certi/RTIG/RTIG_cmdline.c
+config.h
+/home/red-sea/COSSIM/hla/certi/RTIG/config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+RTIG_cmdline.h
+/home/red-sea/COSSIM/hla/certi/RTIG/RTIG_cmdline.h
+
+/home/red-sea/COSSIM/hla/certi/RTIG/RTIG_cmdline.h
+config.h
+/home/red-sea/COSSIM/hla/certi/RTIG/config.h
+stdio.h
+-
+
+config.h
+

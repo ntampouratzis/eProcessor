@@ -1,3 +1,2 @@
-# eProcessor
-
-This is the eProcessor cossim simulator
+# COSSIM_RISCV
+This is the COSSIM integration with gem5 v21.0 

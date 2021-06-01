@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /home/red-sea/COSSIM/hla/certi/test/testFederate
+# Build directory: /home/red-sea/COSSIM/hla/certi/build-certi/test/testFederate
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

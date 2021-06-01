@@ -1,0 +1,9 @@
+12:25:59 **** Clean-only build of configuration gcc-debug for project HLANode ****
+make MODE=debug CONFIGNAME=gcc-debug clean 
+cd src && make clean
+make[1]: Entering directory '/home/eprocessor/COSSIM/OMNETPP_COSSIM_workspace/OMNET_WORKSPACE/HLANode/src'
+Cleaning...
+make[1]: Leaving directory '/home/eprocessor/COSSIM/OMNETPP_COSSIM_workspace/OMNET_WORKSPACE/HLANode/src'
+
+12:25:59 Build Finished (took 89ms)
+

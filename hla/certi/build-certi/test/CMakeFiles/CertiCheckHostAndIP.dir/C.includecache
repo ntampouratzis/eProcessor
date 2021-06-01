@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/red-sea/COSSIM/hla/certi/test/certiCheckHostAndIP.c
+sys/socket.h
+-
+sys/ioctl.h
+-
+linux/if.h
+-
+stdio.h
+-
+netdb.h
+-
+unistd.h
+-
+stdlib.h
+-
+rpc/rpc.h
+-
+

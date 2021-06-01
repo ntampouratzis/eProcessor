@@ -1,0 +1,40 @@
+Determining if the function basename exists in the gen failed with the following output:
+Change Dir: /home/red-sea/COSSIM/hla/certi/build-certi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77772/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77772.dir/build.make CMakeFiles/cmTC_77772.dir/build
+make[1]: Entering directory '/home/red-sea/COSSIM/hla/certi/build-certi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77772.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fmessage-length=0 -fvisibility=hidden -pedantic -ansi -Wall -Wno-unused-function -DCHECK_FUNCTION_EXISTS=basename   -o CMakeFiles/cmTC_77772.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77772.dir/link.txt --verbose=1
+/usr/bin/cc  -fmessage-length=0 -fvisibility=hidden -pedantic -ansi -Wall -Wno-unused-function -DCHECK_FUNCTION_EXISTS=basename    -rdynamic CMakeFiles/cmTC_77772.dir/CheckFunctionExists.c.o  -o cmTC_77772 -lgen /usr/lib/x86_64-linux-gnu/librt.so 
+/usr/bin/ld: cannot find -lgen
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_77772.dir/build.make:98: recipe for target 'cmTC_77772' failed
+make[1]: *** [cmTC_77772] Error 1
+make[1]: Leaving directory '/home/red-sea/COSSIM/hla/certi/build-certi/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_77772/fast' failed
+make: *** [cmTC_77772/fast] Error 2
+
+
+Determining if the function connect exists in the socket failed with the following output:
+Change Dir: /home/red-sea/COSSIM/hla/certi/build-certi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ae2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ae2d.dir/build.make CMakeFiles/cmTC_7ae2d.dir/build
+make[1]: Entering directory '/home/red-sea/COSSIM/hla/certi/build-certi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ae2d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fmessage-length=0 -fvisibility=hidden -pedantic -ansi -Wall -Wno-unused-function -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_7ae2d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ae2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae2d.dir/link.txt --verbose=1
+/usr/bin/cc  -fmessage-length=0 -fvisibility=hidden -pedantic -ansi -Wall -Wno-unused-function -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_7ae2d.dir/CheckFunctionExists.c.o  -o cmTC_7ae2d -lsocket /usr/lib/x86_64-linux-gnu/librt.so 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7ae2d.dir/build.make:98: recipe for target 'cmTC_7ae2d' failed
+make[1]: *** [cmTC_7ae2d] Error 1
+make[1]: Leaving directory '/home/red-sea/COSSIM/hla/certi/build-certi/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7ae2d/fast' failed
+make: *** [cmTC_7ae2d/fast] Error 2
+
+
